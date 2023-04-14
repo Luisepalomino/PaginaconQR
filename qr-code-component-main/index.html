@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\neto-\Desktop\qr-code-component-main\images\favicon.png">
+  
+  <title>QR code component</title>
+  <style>
+    .attribution{font-size: 11px; text-align: center;}
+    .attribution a{ color: hsl(228, 45%, 44%);}
+    
+    .rectangulo{
+      width: 365px; /* Ancho del rectángulo */
+      height: 540px; /* Alto del rectángulo */
+      background-color: #ffffff; /* Color de fondo del rectángulo */
+      border-radius: 20px; /* Radio de las esquinas del rectángulo */
+      margin: 0 auto; /* Centrar horizontalmente el rectángulo */
+      margin-top: 50vh; /* Centrar verticalmente el rectángulo utilizando el 50% del alto de la ventana del navegador */
+      transform: translateY(-50%); /* Alinear el rectángulo verticalmente utilizando una traslación del 50% del alto del rectángulo */}
+
+      .rounded-image {
+      width: 325px; /* Ancho de la imagen */
+      height: 325px; /* Altura de la imagen */
+      border-radius: 15px; /* Radio de las esquinas redondeadas para hacer una imagen circular */
+      overflow: hidden; /* Oculta el contenido que desborda la imagen */
+      margin-top: 15px;
+    }
+
+    /* Estilo de la imagen dentro del contenedor */
+    .rounded-image img {
+      width: 100%; /* Ancho del 100% para que la imagen se ajuste al contenedor */
+      height: 100%; /* Altura del 100% para que la imagen se ajuste al contenedor */
+      object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+      border-radius: 15px; 
+      margin-top: 15px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+    h1 {
+      font-family: 'Outfit', sans-serif;    
+      font-size: 25px; 
+      margin-left: 15px; /* Margen izquierdo de 15 pixels */
+      margin-right: 15px; /* Margen derecho de 15 pixels */
+    }
+    p{
+      font-family: 'Outfit', sans-serif;
+      font-size: 18px;
+      margin-left: 15px; /* Margen izquierdo de 15 pixels */
+      margin-right: 15px; /* Margen derecho de 15 pixels */
+    }
+  </style>
+</head>
+<body style="background-color: hsl(212, 45%, 89%);" font-family: 'Outfit', sans-serif;>
+  <div class="rectangulo" align="center">
+    <div class="rounded-image" align="center" >
+      <img src="C:\Users\neto-\Desktop\qr-code-component-main\images\qrcode.png" alt="Imagen con esquinas redondeadas"  >
+    </div>
+    <h1 align="center">Improve your front-end<br> skills by building projects</h1>
+    <p align="center">Scan the QR code to visit Frontend Mentor and take your coding skills to<br> the next level</p>
+  </div>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Luis Palomino</a>.
+  </div>
+</body>
+</html>
